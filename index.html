@@ -6,7 +6,7 @@
 		<style>
 			body {
 				margin: 0px;
-				background-color: #FFFFFF;
+				background-color: #AAAAAA;
 			}
 		</style>
 
@@ -16,8 +16,27 @@
 		
 	</head>
 	<body onload="app.init()">
-    <div id="controls">
-        <button type="button" id="explodeButton">Explode</button>
+    <div id="inputs">
+        <form>
+		.Net Days:<br>
+		<input id="backendDays" type="text"><br>
+		FE Days:<br>
+		<input id="frontendDays" type="text"><br>
+		Iteration Duration:<br>
+		<input id="itDuration" type="text"><br>
+		Number of Iterations:<br>
+		<input id="itCount" type="text"><br>
+		FE Management %:<br>
+		<input id="itDuration" type="text"><br>
+		BE Management %:<br>
+		<input id="itCount" type="text"><br>
+		<button id="submitBtn" type="button">Submit</button>
+		</form>
+    </div>
+    <br>
+    <div id="outputs">
+    Output:
+    <p></p>
     </div>
     </body>
 </html>
